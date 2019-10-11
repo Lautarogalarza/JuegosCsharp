@@ -5,7 +5,7 @@ VisualStudioVersion = 15.0.28307.779
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnakeForm", "SnakeForm\SnakeForm.csproj", "{4124F8B6-8A3F-4E4F-96A3-CE24C7396EFE}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalador_Snake3", "Instalador_Snake3.vdproj", "{5D1CEC89-A9DB-4BDC-AA96-24E757328915}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Instalador_Snake3", "..\Instalador_Snake3\Instalador_Snake3.vdproj", "{FFAF8AB7-E53F-4059-A463-FDFCDABA3D49}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{4124F8B6-8A3F-4E4F-96A3-CE24C7396EFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4124F8B6-8A3F-4E4F-96A3-CE24C7396EFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4124F8B6-8A3F-4E4F-96A3-CE24C7396EFE}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5D1CEC89-A9DB-4BDC-AA96-24E757328915}.Debug|Any CPU.ActiveCfg = Debug
-		{5D1CEC89-A9DB-4BDC-AA96-24E757328915}.Release|Any CPU.ActiveCfg = Release
+		{FFAF8AB7-E53F-4059-A463-FDFCDABA3D49}.Debug|Any CPU.ActiveCfg = Debug
+		{FFAF8AB7-E53F-4059-A463-FDFCDABA3D49}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

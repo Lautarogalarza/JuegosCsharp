@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Media;
 
 namespace SnakeForm
 {
@@ -18,12 +19,12 @@ namespace SnakeForm
         private ColaSnake cabeza;
         private Graphics nuevoGrafico;
         private ComidaSnake nuevaComida;
-        private int direccionX= 0;
+        private int direccionX = 0;
         private int direccionY = 0;
         private int cuadro = 10;
         private bool ejeX = true;
         private bool ejeY = true;
-        private int puntajeJuego =0;
+        private int puntajeJuego = 0;
         private int puntajeMaximo = 0;
 
         #endregion
@@ -52,14 +53,19 @@ namespace SnakeForm
             this.ColisionSerpiente();
             this.ColisionParedes();
 
-            if(cabeza.Interseccion(nuevaComida)) //esto funciona por polimorfismo ya que una comida sigue siendo un objeto snake
+            if (cabeza.Interseccion(nuevaComida)) //esto funciona por polimorfismo ya que una comida sigue siendo un objeto snake
             {
                 this.nuevaComida.ColocarComida();//voy a detectar cuando el objeto cola colisione con el objeto comida
                 this.cabeza.AgregarSiguiente();//voy agregando una "cabeza" en la poscicion anterior de la otra para simular el crecimiento de la serpiente
                 this.puntajeJuego++;
-                this.lvlPuntos.Text = puntajeJuego.ToString();//cada vez que colisiona con la comida suma el puntaje
+
+                if(this.bucle.Interval >10)
+                {
+                this.bucle.Interval--;
+                }
+               this.lvlPuntos.Text = puntajeJuego.ToString();//cada vez que colisiona con la comida suma el puntaje
             }
-            
+
         }
 
         #endregion
@@ -73,9 +79,9 @@ namespace SnakeForm
 
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            if(this.ejeX)//si esta activo nos movemos en y
+            if (this.ejeX)//si esta activo nos movemos en y
             {
-                if(e.KeyCode == Keys.Up)
+                if (e.KeyCode == Keys.Up)
                 {
                     this.direccionY = -cuadro;
                     this.direccionX = 0;
@@ -136,9 +142,9 @@ namespace SnakeForm
                 aux = null;
             }
 
-            while (aux!=null)//se va a ejecutar hasta que mi auxiliar deje de ser nulo
+            while (aux != null)//se va a ejecutar hasta que mi auxiliar deje de ser nulo
             {
-                if(cabeza.Interseccion(aux))//si cabeza choca con el aux
+                if (cabeza.Interseccion(aux))//si cabeza choca con el aux
                 {
                     this.FinDelJuego();//finalizo el juego
                 }
@@ -158,8 +164,8 @@ namespace SnakeForm
             this.direccionX = 0;
             this.direccionY = 0;
             this.cabeza = new ColaSnake(10, 10);
-            this.nuevaComida = new ComidaSnake();    
-            MessageBox.Show("Puntaje conseguido: " +this.puntajeJuego.ToString(), "PERDISTE!!!", MessageBoxButtons.OK, MessageBoxIcon.Error);  
+            this.nuevaComida = new ComidaSnake();
+            MessageBox.Show("Puntaje conseguido: " + this.puntajeJuego.ToString(), "PERDISTE!!!", MessageBoxButtons.OK, MessageBoxIcon.Error);            
             if (this.puntajeJuego > this.puntajeMaximo)
             {
             this.puntajeMaximo = this.puntajeJuego;

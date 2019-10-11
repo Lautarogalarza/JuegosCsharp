@@ -8,3 +8,13 @@ C:\Users\Lautaro\Desktop\SnakeGame\SnakeForm\obj\Release\SnakeForm.csproj.Genera
 C:\Users\Lautaro\Desktop\SnakeGame\SnakeForm\obj\Release\SnakeForm.csproj.CoreCompileInputs.cache
 C:\Users\Lautaro\Desktop\SnakeGame\SnakeForm\obj\Release\SnakeForm.exe
 C:\Users\Lautaro\Desktop\SnakeGame\SnakeForm\obj\Release\SnakeForm.pdb
+C:\Users\Lautaro\Desktop\JuegosCsharp\Snake3\SnakeGame\SnakeForm\bin\Release\SnakeForm.exe.config
+C:\Users\Lautaro\Desktop\JuegosCsharp\Snake3\SnakeGame\SnakeForm\bin\Release\SnakeForm.exe
+C:\Users\Lautaro\Desktop\JuegosCsharp\Snake3\SnakeGame\SnakeForm\bin\Release\SnakeForm.pdb
+C:\Users\Lautaro\Desktop\JuegosCsharp\Snake3\SnakeGame\SnakeForm\obj\Release\SnakeForm.csprojAssemblyReference.cache
+C:\Users\Lautaro\Desktop\JuegosCsharp\Snake3\SnakeGame\SnakeForm\obj\Release\SnakeForm.Form1.resources
+C:\Users\Lautaro\Desktop\JuegosCsharp\Snake3\SnakeGame\SnakeForm\obj\Release\SnakeForm.Properties.Resources.resources
+C:\Users\Lautaro\Desktop\JuegosCsharp\Snake3\SnakeGame\SnakeForm\obj\Release\SnakeForm.csproj.GenerateResource.cache
+C:\Users\Lautaro\Desktop\JuegosCsharp\Snake3\SnakeGame\SnakeForm\obj\Release\SnakeForm.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Desktop\JuegosCsharp\Snake3\SnakeGame\SnakeForm\obj\Release\SnakeForm.exe
+C:\Users\Lautaro\Desktop\JuegosCsharp\Snake3\SnakeGame\SnakeForm\obj\Release\SnakeForm.pdb
