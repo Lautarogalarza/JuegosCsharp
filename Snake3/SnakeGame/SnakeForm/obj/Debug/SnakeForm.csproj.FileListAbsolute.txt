@@ -1,0 +1,10 @@
+C:\Users\Lautaro\Source\Repos\SnakeGame\SnakeForm\bin\Debug\SnakeForm.exe.config
+C:\Users\Lautaro\Source\Repos\SnakeGame\SnakeForm\bin\Debug\SnakeForm.exe
+C:\Users\Lautaro\Source\Repos\SnakeGame\SnakeForm\bin\Debug\SnakeForm.pdb
+C:\Users\Lautaro\Source\Repos\SnakeGame\SnakeForm\obj\Debug\SnakeForm.csprojAssemblyReference.cache
+C:\Users\Lautaro\Source\Repos\SnakeGame\SnakeForm\obj\Debug\SnakeForm.Form1.resources
+C:\Users\Lautaro\Source\Repos\SnakeGame\SnakeForm\obj\Debug\SnakeForm.Properties.Resources.resources
+C:\Users\Lautaro\Source\Repos\SnakeGame\SnakeForm\obj\Debug\SnakeForm.csproj.GenerateResource.cache
+C:\Users\Lautaro\Source\Repos\SnakeGame\SnakeForm\obj\Debug\SnakeForm.csproj.CoreCompileInputs.cache
+C:\Users\Lautaro\Source\Repos\SnakeGame\SnakeForm\obj\Debug\SnakeForm.exe
+C:\Users\Lautaro\Source\Repos\SnakeGame\SnakeForm\obj\Debug\SnakeForm.pdb
